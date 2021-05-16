@@ -163,7 +163,7 @@ header.top__header h2.custom-heading {
 
 .line-solid {
     border-bottom: 2px solid orange;
-    width: 155px;
+    width: 265px;
     margin: auto;
     padding-top: 10px;
 }
@@ -187,4 +187,83 @@ section.about .how-it-shadow:hover {
 section.about .icon-pres img {
     height: 150px;
     margin-bottom: 30px;
+}
+
+section.features {
+    position: relative;
+    background: linear-gradient(360deg, #f7a519, #3b6ab1);
+    padding: 150px 0 40px;
+}
+
+.custom-shape-divider-top-features {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-features svg {
+    position: relative;
+    display: block;
+    width: calc(179% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-features .shape-fill {
+    fill: #FFFFFF;
+}
+
+section.features .title-features {
+    color: #fff;
+}
+
+section.features .fearured-app {
+    position: relative;
+    background-color: #fff;
+    padding: 30px 40px;
+    margin: 30px 0;
+    border-radius: 15px;
+    border-top: 4px dashed #fda810;
+}
+
+section.features .fearured-app:hover {
+    border-top: 4px solid #f7a519;
+}
+
+section.features .fearured-app .icon-featured img {
+    height: 80px;
+    margin: 25px 0;
+}
+
+section.features .fearured-app .custom-title h4 {
+    margin-bottom: 15px;
+    color: #363636;
+}
+
+section.features .paragraph-marketing p {
+    color: rgb(224, 224, 224);
+}
+
+section.features .contant-text p {
+    margin-bottom: 40px;
+}
+
+section.features .fearured-app .number-bottom h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #fda810;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom: 2px solid #1960AE;
+    transition: all .5s ease-in-out;
+}
+
+section.features .fearured-app .number-bottom h3:hover {
+    background-color: #1960AE;
+    border-color: #8abdf3;
 }
