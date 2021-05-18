@@ -62,6 +62,10 @@ header.top__header {
     fill: #FFFFFF;
 }
 
+button.navbar-toggler {
+    background: orange;
+}
+
 header.top__header nav .navbar-brand img {
     height: 45px;
 }
@@ -396,4 +400,139 @@ footer.footer-bottom .copyright p {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* Responsive Page */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    ul.navbar-nav.me-auto {
+        margin-top: 20px;
+    }
+
+    header.top__header nav ul li a {
+        padding-right: 15px !important;
+    }
+
+    .custom-shape-divider-bottom-bg svg {
+        height: 30px;
+    }
+
+    .download-app a p {
+        font-size: 18px;
+    }
+
+    .download-app a i {
+        font-size: 26px;
+    }
+
+    .download-app a {
+        background-color: #fda810;
+        padding: 15px 5px;
+        margin-left: 0;
+    }
+
+    .download-app a.custom-button {
+        background-color: #1960AE;
+        padding: 15px 5px;
+        margin-left: 0;
+    }
+
+    .line-solid {
+        width: 200px;
+    }
+
+    section.about .how-it-shadow {
+        padding: 25px 10px;
+    }
+
+    section.about .icon-pres img {
+        height: 100px;
+        margin-bottom: 25px;
+    }
+
+    h3.custom-title-how {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .line-solid-features {
+        width: 145px;
+    }
+
+    .contact-whatsapp.text-center {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    ul.navbar-nav.me-auto {
+        margin-top: 20px;
+    }
+
+    header.top__header nav ul li a {
+        padding-right: 15px !important;
+    }
+
+    section.about .icon-pres img {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    h3.custom-title-how {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-whatsapp.text-center {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    ul.navbar-nav.me-auto {
+        margin-top: 20px;
+    }
+
+    header.top__header nav ul li a {
+        padding-right: 15px !important;
+    }
+
+    section.about .how-it-shadow {
+        padding: 20px;
+    }
+
+    h3.custom-title-how {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.about .icon-pres img {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .contact-whatsapp.text-center {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    section.about .how-it-shadow {
+        padding: 40px 25px;
+    }
+
+    section.features .fearured-app {
+        padding: 30px 20px;
+    }
+
+    section.services .card-services {
+        padding: 40px 20px;
+    }
+
+    .contact-whatsapp.text-center {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Responsive Good */
 }
